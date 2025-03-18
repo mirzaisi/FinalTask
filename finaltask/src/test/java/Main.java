@@ -1,5 +1,3 @@
-package com.finaltask;
-
 import org.junit.runner.JUnitCore;
 
 public class Main {

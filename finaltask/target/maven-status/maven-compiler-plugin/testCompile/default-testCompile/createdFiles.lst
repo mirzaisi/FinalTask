@@ -1,0 +1,7 @@
+Main.class
+UC1_EmptyCredentialsTest.class
+UC3_ValidCredentialsTest.class
+DriverFactory.class
+UC2_UsernameOnlyTest.class
+LoginPage.class
+BaseTest.class
