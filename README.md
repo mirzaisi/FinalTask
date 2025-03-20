@@ -34,3 +34,4 @@ This project uses:
 ## Running Tests
 
 1. **Default (Firefox)**:
+2. Edge
