@@ -11,6 +11,8 @@ public class UC1_EmptyCredentialsTest extends BaseTest {
 
         String actualError = new LoginPage(driver)
                 .open()
+                .setUsername("randomUserName")
+                .setPassword("randomPassword")
                 .setUsername("")
                 .setPassword("")
                 .clickLogin()

@@ -13,6 +13,7 @@ public class UC2_UsernameOnlyTest extends BaseTest {
         String actualError = new LoginPage(driver)
                 .open()
                 .setUsername("any_username")
+                .setPassword("randomPassword")
                 .setPassword("")
                 .clickLogin()
                 .getErrorText();
